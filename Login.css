@@ -27,11 +27,65 @@
     max-width: 80vw;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-top: 15px;
 }
 
 
 .topmost_section nav .Netflix_logo{
-    height: 25px;
-    
+    height: 34px;
+    width: 120px;
+    z-index: 10;
+}
+
+
+
+.topmost_section .sign-up-area *{
+    position: relative;
+    z-index: 10;
+}
+
+
+.topmost_section .sign-up-area .languages{
+    color: white;
+    background-color: #ffffff2e;
+    padding: 10px;
+}
+
+
+
+.topmost_section .sign-up-area .sign-up-btn{
+    color: white;
+    background-color: red;
+    padding: 12px;
+    border: 0.2px transparent;
+}
+
+
+
+
+
+.opening_para{
+    top: 5vh;
+    position: relative;
+    opacity: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    height: 496px;
+    max-width: 816px;
+    margin: auto;
+    z-index: 10;
+}
+
+.opening_para h1{
+
+    width: 432px;
+    height: 80px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
