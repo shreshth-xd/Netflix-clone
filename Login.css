@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+
+
+.topmost_section{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    background-image: url("Assets/Hero_Thumbnail.jpg");
+}
+
+.topmost_section .box{
+    position: absolute;
+    top: 0;
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.44;
+
+}
+
+
+.topmost_section nav{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.topmost_section nav .Netflix_logo{
+    height: 25px;
+    
+}
