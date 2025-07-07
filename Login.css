@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+body{
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 .topmost_section{
     position: relative;
@@ -209,6 +213,7 @@
     }
 
     .box{
+        height: auto;
         max-height: 100%;
     }
 
@@ -226,4 +231,81 @@
         align-items: center;
         row-gap: 12px;
     }
+}
+
+
+/* Divider line, to separate the topmost section with the main-content */
+.divider{
+    max-width: 100%;
+    height: 1vh;
+    margin: 0%;
+    border: none;
+    background-color: red;
+    
+    /* background: linear-gradient(to right; */
+}
+
+
+/* Main content */
+
+.main-content-grid{
+    display: block;
+    margin-top: 0;
+    padding-top: 20px;
+    color: white;
+}
+
+
+.main-content-grid .show-carousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 90vw;
+    margin: auto;
+}
+
+.cards{
+
+    margin: 25px auto 8px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 20px;
+    padding: 20px;
+}
+
+.cards .card{
+    border: 0.75px solid white;
+    display: flow-root;
+    border-radius: 4px;
+    height: 30vh;
+    width: 155px;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* animation: image-scale-up linear 0.25s infinite; */
+
+}
+
+.cards .card img{
+    height: 30vh;
+    width: 155px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+@keyframes image-scale-up{
+    from{
+
+    }
+    to{
+        transform: scale(1.090);
+    }
+}
+
+
+.cards .card:hover{
+    animation: image-scale-up ease-in-out 0.25s forwards;
 }
