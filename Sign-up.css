@@ -437,7 +437,17 @@ body{
 .faq-bars #faq-bar{
     flex: 1 0 auto;
     background-color: #2d2d2d;
-    height: 100px;
+    height: 63px;
     width: 100%;
-    margin: 2px 0px;
+    margin: 4px 0px;
+    display: flex;
+    padding: 5px;
+    position: relative;
+}
+
+.faq-bars #faq-bar .arrow{
+    font-size: 22px;
+    position: absolute;
+    right: 4px;
+    top: 50%;
 }
