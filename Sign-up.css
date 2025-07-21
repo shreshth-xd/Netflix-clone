@@ -441,13 +441,20 @@ body{
     width: 100%;
     margin: 4px 0px;
     display: flex;
+    flex-direction: row;
+    align-items: center;
     padding: 5px;
     position: relative;
 }
 
-.faq-bars #faq-bar .arrow{
+.faq-bars #faq-bar h3{
     font-size: 22px;
     position: absolute;
-    right: 4px;
-    top: 50%;
+    left: 10px;
+}
+
+.faq-bars #faq-bar .arrow{
+    font-size: 42px;
+    position: absolute;
+    right: 10px;
 }
