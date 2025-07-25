@@ -445,16 +445,14 @@ body{
     align-items: center;
     padding: 5px;
     position: relative;
+    justify-content: space-between;
 }
 
 .faq-bars #faq-bar h3{
     font-size: 22px;
-    position: absolute;
-    left: 10px;
 }
 
 .faq-bars #faq-bar .arrow{
     font-size: 42px;
-    position: absolute;
-    right: 10px;
 }
+
