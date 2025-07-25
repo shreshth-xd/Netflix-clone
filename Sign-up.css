@@ -456,3 +456,13 @@ body{
     font-size: 42px;
 }
 
+
+
+/* Making the end-footer */
+
+.end-footer{
+    display: block;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
