@@ -473,7 +473,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5px auto;
+    margin: 20px auto;
     width: 85%;
     gap: 20px;
 }
@@ -499,4 +499,32 @@ body{
     padding: 12px 18vw;
     background-color: #292626ba;
     border: 1px solid white;
+    font-size: 20px;
+
+}
+
+.end-footer .link-section{
+    height: auto;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 22px auto;
+    gap: 20px;
+}
+
+
+.lang-toggle-footer{
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #292626ba;
+    border: 1px solid white;
+    font-size: 20px;
+    width: 9%;
+}
+
+.lang-toggle-footer .eng::before{
+    content: url("Assets/SVGs/Translation.svg");
+
 }
