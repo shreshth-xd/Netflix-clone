@@ -510,7 +510,7 @@ body{
     flex-direction: column;
     justify-content: center;
     margin: 22px auto;
-    gap: 80px;
+    gap: 40px;
     position: relative;
 }
 
