@@ -465,4 +465,34 @@ body{
     width: 100vw;
     background-color: black;
     color: white;
+    height: auto;
+    padding-top: 25px;
+}
+
+.end-footer .restart-membership{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px auto;
+    width: 85%;
+    column-gap: 10px;
+}
+
+.end-footer .restart-membership .email-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.end-footer .restart-membership .email-section .footer-get-started{
+    background-color: red;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.end-footer .restart-membership .email-section input{
+    color: white;
+    border-radius: 10px;
 }
