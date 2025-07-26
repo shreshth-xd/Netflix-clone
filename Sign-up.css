@@ -475,15 +475,9 @@ body{
     align-items: center;
     margin: 5px auto;
     width: 85%;
-    column-gap: 10px;
+    gap: 20px;
 }
 
-.end-footer .restart-membership .email-section{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 8px;
-}
 
 .end-footer .restart-membership .email-section .footer-get-started{
     background-color: red;
@@ -492,7 +486,20 @@ body{
     border-radius: 10px;
 }
 
+.end-footer .restart-membership .email-section form{
+    height: 100%;
+    width: 100%;
+}
+
+.end-footer .restart-membership .email-section form *{
+
+}
+
+
 .end-footer .restart-membership .email-section input{
     color: white;
     border-radius: 10px;
+    padding: 12px 2px;
+    background-color: #292626ba;
+    border: 1px solid white;
 }
