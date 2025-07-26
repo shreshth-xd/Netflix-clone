@@ -518,13 +518,15 @@ body{
 .lang-toggle-footer{
     color: white;
     border-radius: 4px;
-    padding: 9px 26px;
+    padding: 9px 0px;
     background-color: #292626ba;
     border: 1px solid white;
-    width: 11%;
+    width: 10%;
     text-align: center;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
 }
 
 
@@ -532,5 +534,9 @@ body{
     position: absolute;
     top: 39%;
     left: 7px;
+}
+
+.link-section a{
+    color: skyblue;
 }
 
