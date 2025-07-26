@@ -532,11 +532,29 @@ body{
 
 .translator-img{
     position: absolute;
-    top: 39%;
+    top: 53vh;
     left: 7px;
 }
 
+
+.actual-links{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.actual-links div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+    /* align-items: center; */
+}
+
+.link-section .actual-links a{
+    color: white;
+}
+
 .link-section a{
-    color: skyblue;
+    color: #50a7c9;
 }
 
