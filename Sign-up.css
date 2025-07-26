@@ -511,20 +511,23 @@ body{
     justify-content: center;
     margin: 22px auto;
     gap: 20px;
+    position: relative;
 }
 
 
 .lang-toggle-footer{
     color: white;
     border-radius: 4px;
-    padding: 10px;
+    padding: 9px 26px;
     background-color: #292626ba;
     border: 1px solid white;
     font-size: 20px;
-    width: 9%;
+    width: 11%;
 }
 
-.lang-toggle-footer .eng::before{
-    content: url("Assets/SVGs/Translation.svg");
-
+.translator-img{
+    position: absolute;
+    top: 40%;
+    left: 7px;
 }
+
