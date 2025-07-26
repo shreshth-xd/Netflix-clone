@@ -510,7 +510,7 @@ body{
     flex-direction: column;
     justify-content: center;
     margin: 22px auto;
-    gap: 38px;
+    gap: 80px;
     position: relative;
 }
 
@@ -539,11 +539,12 @@ body{
 
 .actual-links{
     display: flex;
-    align-items: center;
-    column-gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .actual-links div{
+    margin: 0;
     display: flex;
     flex-direction: column;
     row-gap: 14px;
@@ -558,3 +559,6 @@ body{
     color: #50a7c9;
 }
 
+.media-center{
+    justify-content: ;
+}
