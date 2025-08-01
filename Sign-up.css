@@ -415,23 +415,26 @@ body{
 }
 
 
+/* FAQ section */
+
 .FAQs{
     height: auto;
     margin: 12px auto;
     padding: 10px;
-    width: 83vw;
-    max-width: 85%;
+    max-width: 90vw;
+    /* max-width: 85%; */
 }
 
 
-
 .FAQs h2{
+    /* align-self: flex-start; */
     margin: 4px 0px;
     text-align: left;
     font-size: 20px;
 }
 
 .faq-bars{
+    /* flex: 1 0 auto; */
     height: auto;
     max-width: 100%;
     display: flex;
@@ -463,8 +466,13 @@ body{
 
 @media only screen and (max-width: 335px){
     .FAQs{
-        margin: 14px auto;
-        max-width: 82%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+        max-width: 88vw;
+        /* position: relative; */
+        /* left: 3%; */
     }
 
     .FAQs > h2{
@@ -564,6 +572,8 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    column-gap: 20px;
+    row-gap: 15px;
 }
 
 .actual-links div{
