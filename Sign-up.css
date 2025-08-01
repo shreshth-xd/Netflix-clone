@@ -420,10 +420,14 @@ body{
     margin: 12px auto;
     padding: 10px;
     width: 83vw;
+    max-width: 85%;
 }
+
+
 
 .FAQs h2{
     margin: 4px 0px;
+    text-align: left;
 }
 
 .faq-bars{
@@ -456,6 +460,24 @@ body{
     font-size: 42px;
 }
 
+@media only screen and (max-width: 335px){
+    .FAQs{
+        margin: 14px auto;
+        max-width: 82%;
+    }
+
+    .FAQs > h2{
+        margin: 6px auto;
+    }
+
+    .faq-bars #faq-bar h3{
+        font-size: 16px;
+    }
+
+    .faq-bars #faq-bar .arrow{
+        font-size: 22px;
+    }
+}
 
 
 /* Making the end-footer */
