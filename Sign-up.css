@@ -512,17 +512,6 @@ body{
 }
 
 
-.end-footer .restart-membership .email-section .footer-get-started{
-    background-color: red;
-    color: white;
-    padding: 12px 2vw;
-    border-radius: 6px;
-    font-weight: bold;
-    font-size: 20px;
-    width: 140px;
-    max-width: 140px;
-    white-space: nowrap;
-}
 
 .email-section{
     height: 100%;
@@ -536,6 +525,16 @@ body{
     width: 100%;
 }
 
+
+
+.email-section form{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    align-self: flex-start;
+}
+
 .end-footer .restart-membership .email-section input{
     color: white;
     border-radius: 4px;
@@ -544,21 +543,39 @@ body{
     background-color: #292626ba;
     border: 1px solid white;
     font-size: 20px;
+}
 
+.end-footer .restart-membership .email-section .footer-get-started{
+    background-color: red;
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 140px;
+    max-width: 140px;
+    white-space: nowrap;
 }
 
 
-.email-section form{
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-    align-self: flex-start;
-}
 
 
-.email-section form button{
-    flex-shrink: 1;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .end-footer .link-section{
@@ -572,23 +589,14 @@ body{
     position: relative;
 }
 
-
-
-
-
-
-
-
-
-
-
 .lang-toggle-footer{
     color: white;
     border-radius: 4px;
     padding: 9px 0px;
     background-color: #292626ba;
     border: 1px solid white;
-    width: 10%;
+    width: 100px;
+    max-width: 100px;
     text-align: center;
     display: flex;
     align-items: center;
