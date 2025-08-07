@@ -11,7 +11,8 @@ body{
 .topmost_section{
     position: relative;
     height: 80vh;
-    width: 100%;
+    width: 100vw;
+    max-width: 100vw;
     object-fit: cover;
     object-position: center;
     background-image: url("Assets/Hero_Thumbnail.jpg");
@@ -503,9 +504,10 @@ body{
 .end-footer .restart-membership{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     margin: 20px auto;
     width: 85%;
+    max-width: 85%;
     gap: 20px;
 }
 
@@ -527,12 +529,27 @@ body{
 .end-footer .restart-membership .email-section input{
     color: white;
     border-radius: 4px;
-    padding: 12px 18vw;
+    flex: 1 0 auto;
+    padding: 12px 2px;
     background-color: #292626ba;
     border: 1px solid white;
     font-size: 20px;
 
 }
+
+
+.email-section form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-self: flex-start;
+}
+
+
+.email-section form button{
+    flex-shrink: 1;
+}
+
 
 .end-footer .link-section{
     height: auto;
