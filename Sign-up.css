@@ -519,7 +519,17 @@ body{
     border-radius: 6px;
     font-weight: bold;
     font-size: 20px;
+    width: 140px;
+    max-width: 140px;
+    white-space: nowrap;
 }
+
+.email-section{
+    height: 100%;
+    width: 100%;
+    align-self: flex-start;
+}
+
 
 .end-footer .restart-membership .email-section form{
     height: 100%;
@@ -561,6 +571,15 @@ body{
     gap: 40px;
     position: relative;
 }
+
+
+
+
+
+
+
+
+
 
 
 .lang-toggle-footer{
