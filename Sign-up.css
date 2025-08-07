@@ -573,7 +573,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     column-gap: 20px;
-    row-gap: 15px;
+    row-gap: 40px;
 }
 
 .actual-links div{
